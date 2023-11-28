@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Courses - Kashmir Harvard</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    /* CSS styles for the images */
+    .image-container {
+      display: flex;
+    }
+    
+    .image-block {
+      flex: 1;
+      padding: 10px;
+    }
+
+    /* Set a fixed width and height for the images */
+    .image-block img {
+      width: 280px; 
+      height: 250px;
+      object-fit: cover; 
+    }
+    
+    /* Rest of the CSS styles... */
+    .image-caption {
+      text-align: center;
+      font-weight: bold;
+    }
+    .learn-more-btn {
+      display: block;
+      width: 100px;
+      margin: 10px auto;
+      padding: 8px 15px;
+      text-align: center;
+      background-color: grey;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Advancing Knowledge, Empowering Minds:</h1>
+    <h2>Shaping a Better Tomorrow</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="extracurricular.html">Extracurricular</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section>
+    <h2>Our Extracurricular Activities</h2>
+    <p>At Kashmir Harvard, we believe in providing a holistic education that goes beyond textbooks and classrooms. Our Extracurricular Activities Program offers a wide range of exciting and enriching
+       experiences that allow students to explore their interests, develop new skills, and foster a sense of adventure.</p>
+
+       <p>Through our Extracurricular Activities Program, we aim to inspire a sense of adventure and curiosity in our students, empowering them to explore their passions and interests beyond the classroom.
+       
+       Join us on this exciting journey of exploration and discovery! Whether you have a love for nature, a passion for photography, or a desire to challenge yourself in the pool, our extracurricular activities have something for everyone.
+       
+       Come, be a part of our vibrant and engaging extracurricular community and unlock your full potential at Kashmir Harvard!</p>
+    <div class="image-container">
+      <div class="image-block">
+        <img src="trekking.jpg" alt="Trekking">
+        <p class="image-caption">Trekking</p>
+        <a class="learn-more-btn" href="#" onclick="showPopup('Trekking','Experience the thrill of outdoor adventure with our trekking club. Led by experienced guides, students embark on thrilling hiking journeys, exploring the beauty of nature and building teamwork and resilience along the way.')">Learn More</a>
+      </div>
+      <div class="image-block">
+        <img src="Camping.jpeg" alt="Camping">
+        <p class="image-caption">Camping</p>
+        <a class="learn-more-btn" href="#" onclick="showPopup('Camping', 'Our camping club provides students with an opportunity to disconnect from the digital world and immerse themselves in the great outdoors. Through camping trips, students learn essential survival skills, develop a love for nature, and create unforgettable memories with their peers.')">Learn More</a>
+      </div>
+      <div class="image-block">
+        <img src="Photography.jpeg" alt="Photography">
+        <p class="image-caption">Photography</p>
+        <a class="learn-more-btn" href="#" onclick="showPopup('Photography', 'Capture the world through a lens with our photography club. Students learn the art of photography, from mastering composition to understanding lighting techniques. This club is perfect for budding photographers looking to unleash their creativity and tell compelling visual stories.')">Learn More</a>
+      </div>
+      <div class="image-block">
+        <img src="Swimming.jpeg" alt="Swimming">
+        <p class="image-caption">Swimming</p>
+        <a class="learn-more-btn" href="#" onclick="showPopup('Swimming', 'Dive into our swimming club and make a splash! Whether you are a beginner or an experienced swimmer, our swimming program caters to all skill levels. Our certified instructors help students improve their swimming techniques and foster a love for this enjoyable and healthy activity.')">Learn More</a>
+      </div>
+    </div>
+    <p>      </p>
+    <h2>Clubs</h2>
+    <p>Welcome to the exciting world of clubs at our school! We believe in nurturing our students' diverse interests and talents, and our extensive range of extracurricular activities plays a crucial role in shaping well-rounded individuals. Our school offers a vibrant selection of clubs, each designed to inspire creativity, foster teamwork, and ignite passion.</p>
+    <p>These clubs are more than just extracurricular activities; they are spaces where friendships are forged, skills are honed, and passions are kindled. We encourage every student to explore and join the clubs that resonate with their interests, as we believe that extracurricular engagement enriches the educational experience and nurtures well-rounded individuals.</p>
+    <div class="image-container">
+      <div class="image-block">
+        <img src="Astronomy.jpeg" alt="Astronomy">
+        <p class="image-caption">Astronomy Club</p>
+        <a class="learn-more-btn" href="#" onclick="showPopup('Astronomy Club', 'Embark on a journey through the cosmos as we explore the wonders of the universe. Join us to gaze at the stars, learn about celestial phenomena, and indulge in the fascinating world of astronomy.')">Learn More</a>
+      </div>
+      <div class="image-block">
+        <img src="Dance.jpeg" alt="Image 2">
+        <p class="image-caption">Dance Club</p>
+        <a class="learn-more-btn" href="#" onclick="showPopup('Dance Club', 'Unleash your artistic expression on the dance floor. Our dance club is a lively space for students to learn various dance forms, from classical to contemporary, and showcase their talent during electrifying performances.')">Learn More</a>
+      </div>
+      <div class="image-block">
+        <img src="Research.jpeg" alt="Image 3">
+        <p class="image-caption">Research Club</p>
+        <a class="learn-more-btn" href="#" onclick="showPopup('Research Club', 'Fuel your curiosity and engage in innovative research projects. The research club encourages students to delve into topics of interest, develop critical thinking skills, and present their findings to an enthusiastic audience.')">Learn More</a>
+      </div>
+      <div class="image-block">
+        <img src="Art.png" alt="Image 4">
+        <p class="image-caption">Art Club</p>
+        <a class="learn-more-btn" href="#" onclick="showPopup('Art Club', 'Immerse yourself in the world of creativity and imagination. In our art club, students explore various art mediums, express their thoughts through colors, and exhibit their artistic masterpieces.')">Learn More</a>
+      </div>
+    </div>
+    <div class="image-container">
+      <div class="image-block">
+        <img src="Drama.jpeg" alt="Image 5">
+        <p class="image-caption">Drama Club</p>
+        <a class="learn-more-btn" href="#" onclick="showPopup('Drama Club', 'Unleash the actor within you and experience the thrill of the stage. Our drama club provides a platform for students to act, direct, and produce captivating theatrical performances.')">Learn More</a>
+      </div>
+      <div class="image-block">
+        <img src="Literature.jpeg" alt="Image 6">
+        <p class="image-caption">Literature Club</p>
+        <a class="learn-more-btn" href="#" onclick="showPopup('Literature Club', ' Delve into the enchanting world of literature and storytelling. The literature club is the perfect haven for bookworms, where students discuss literary works, write creatively, and host book-related events.')">Learn More</a>
+      </div>
+      <div class="image-block">
+        <img src="Coding.jpeg" alt="Image 7">
+        <p class="image-caption">Coding Club</p>
+        <a class="learn-more-btn" href="#" onclick="showPopup('Coding Club', 'Unlock the potential of technology and computer science. Join our coding club to learn programming languages, participate in coding challenges, and create cutting-edge projects.')">Learn More</a>
+      </div>
+      <div class="image-block">
+        <img src="Community.jpeg" alt="Image 8">
+        <p class="image-caption">Community Service Club</p>
+        <a class="learn-more-btn" href="#" onclick="showPopup('Community Service Club', 'Make a positive impact on the world around you. Our community service club engages students in meaningful service projects, volunteering opportunities, and initiatives to uplift the community.')">Learn More</a>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Kashmir Harvard. All rights reserved.</p>
+  </footer>
+  <script>
+    function showPopup(title, content) {
+      alert(title + ":\n\n" + content);
+    }
+  </script>
+</body>
+</html>

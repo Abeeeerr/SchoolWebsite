@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact - Kashmir Harvard</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1a237e;
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    nav li {
+      display: inline;
+      margin-right: 20px;
+    }
+    nav li:last-child {
+      margin-right: 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    nav a:hover {
+      color: #c5cae9;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    section h2 {
+      color: #1a237e;
+    }
+    section p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+    footer img {
+      width: 30px;
+      margin: 0 5px;
+      vertical-align: middle;
+    }
+
+    /* New CSS rules for floated image and contact form */
+    .contact-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .contact-form {
+      flex: 1;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .contact-image {
+      flex: 1;
+      margin-left: 20px;
+    }
+
+    .contact-image img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .contact-container {
+        flex-direction: column;
+      }
+
+      .contact-image {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Kashmir Harvard</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="extracurricular.html">Extracurricular</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-container">
+    
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <p>Feel free to reach out to us using the contact information below:</p>
+      <ul>
+        <li>Email: info@kashmirharvard.com</li>
+        <li>Phone: 999-876-4560</li>
+        <li>Address: Rajbagh, Srinagar, India</li>
+      </ul>
+      <p>Alternatively, you can use the contact form below:</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    
+    <div class="contact-image">
+      <img src="lowell house harvard.jpeg" alt="Kashmir Harvard Campus">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Kashmir Harvard. All rights reserved.</p>
+    <p>Follow us on social media:</p>
+    <a href="#" target="_blank"><img src="Facebook black icon.jpeg" alt="Facebook"></a>
+    <a href="#" target="_blank"><img src="Tweet, twitter, twitter logo icon - Free download.png" alt="Twitter"></a>
+    <a href="#" target="_blank"><img src="Instagram free icons designed by Freepik.png" alt="Instagram"></a>
+  </footer>
+</body>
+</html>
